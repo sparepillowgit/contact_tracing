@@ -8,7 +8,7 @@ class App {
         echo "<div class=\"container-fluid main\">";
             echo "<div class=\"row header justify-content-center justify-content-md-start\">";
                 echo "<div class=\"col-8 col-md-3 text-center\">";
-                    echo "<h1><i class=\"fas fa-search-location icon\"></i> COVID <span class=\"text-contact\">CONTACT</span><span class=\"text-tracing\">TRACING</span></h1>";
+                echo "<h1><i class=\"fas fa-search-location icon\"></i> COVID <span class=\"text-contact\">Contact</span> <span class=\"text-tracing\">Tracing</span></h1>";
                 echo "</div>";
             echo "</div>";
             echo "<div class=\"row\">";

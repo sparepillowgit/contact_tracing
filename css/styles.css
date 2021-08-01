@@ -94,9 +94,9 @@ h1, h2 {
     background: #000;
     position: fixed;
     z-index: 5;
-    padding: 5px 5px;
-    border-radius: 8px;
-    margin: 5px 0 0 5px;
+    padding: 12px 5px;
+    border-radius: 0 0 10px 10px;
+    margin: 0 0 0 10px;
 }
 
 .header h1 {
@@ -108,24 +108,20 @@ h1, h2 {
 
 .header .icon {
     margin-right: 8px;
+    font-size: 1.6rem;
 }
 
 .text-contact {
-    color: #FFBAEA;
-	font-style: italic;
+    color: #fff;
+    font-weight: 500;
 }
 
 .text-tracing {
-    color: rgb(255, 230, 225);
-    margin-left: -3px;
-	font-style: italic;
+    color: #fff;
+    font-weight: 500;
 }
 
 @media only screen and (max-width: 576px) {
-    .header > * {
-    	margin-top: 5px;
-    }
-
     .header h1 {
     	font-size: 1rem;
     }

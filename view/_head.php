@@ -10,7 +10,7 @@ class Head {
         echo "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">";
         echo "<meta charset=\"utf-8\">";
         echo "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">";
-        echo "<meta name=\"description\" content=\"Brisbane-based full-stack web developer. Proficient with HTML, CSS, JavaScript, PHP, SQL, WordPress, WooCommerce, Adobe CC.\">";
+        echo "<meta name=\"description\" content=\"COVID-19 contact tracing map for Queensland, Australia.\">";
         echo "<meta name=\"author\" content=\"Yohanes Mario\">";
         echo "<link rel=\"icon\" href=\"images/favicon.png\">";
         echo "<script src=\"https://kit.fontawesome.com/199e4cee19.js\"></script>";
