@@ -18,7 +18,7 @@ class App {
         echo "</div>";
 
         echo "<script ";
-        echo "src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyCuj8heRtWx_X1Vd9cR_ciLphCxEkZeCwE&callback=initMap&libraries=&v=weekly\"";
+        echo "src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyCuj8heRtWx_X1Vd9cR_ciLphCxEkZeCwE&callback=initMap&libraries=&v=weekly\" ";
         echo "async";
         echo "></script>\"";
 

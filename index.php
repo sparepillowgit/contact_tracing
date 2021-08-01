@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php Template::create("header", "COVID Contact Tracing"); ?>
+    <?php Template::create("head", "COVID Contact Tracing"); ?>
 </head>
 <body>
     <?php Template::create("app"); ?>

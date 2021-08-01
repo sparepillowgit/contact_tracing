@@ -1,6 +1,6 @@
 <?php
 
-class Header {
+class Head {
 
     function init($args) {
         // $args = [1] Page title
