@@ -9,9 +9,8 @@
 </head>
 <body>
     <?php Template::create("app"); ?>
-</div>
-
+    <?php Template::create("footer"); ?>
 </body>
 
-    <?php Template::create("footer"); ?>
+    
 </html>
