@@ -2,8 +2,10 @@
 
 class Head {
 
-    function init($args) {
-        // $args = [1] Page title
+    function init() {
+        // $args = [0][1] Page title
+        $args = func_get_args();
+        $title = $args[0][1];
 
         echo "\n<meta charset=\"UTF-8\">\n";
         echo "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n";
@@ -16,7 +18,7 @@ class Head {
         echo "<link href=\"css/styles.css\" rel=\"stylesheet\">\n";
         echo "<script src=\"https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js\"></script>\n";
         echo "<script src=\"js/scripts.js\"></script>\n";
-        echo "<title>$args[1]</title>\n";
+        echo "<title>$title</title>\n";
     }
 
 }

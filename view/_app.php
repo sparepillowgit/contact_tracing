@@ -3,7 +3,8 @@
 class App {
 
     function init() {
-        $args = func_get_args();
+        // $args = Empty
+        $argsApp = func_get_args();
 
         echo "<div class=\"container-fluid main\">\n";
             echo "<div class=\"row header justify-content-between\">\n";
