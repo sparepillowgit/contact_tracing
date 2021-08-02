@@ -31,7 +31,6 @@ class Head {
         echo "<link href=\"images/splashscreens/ipadpro2_splash.png\" media=\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)\" rel=\"apple-touch-startup-image\">\n";
         echo "<meta name=\"msapplication-TileImage\" content=\"images/pwa-icon-144.png\">\n";
         echo "<meta name=\"msapplication-TileColor\" content=\"#000000\">\n";
-        echo "<link rel=\"icon\" href=\"images/favicon.png\">\n";
         echo "<script src=\"https://kit.fontawesome.com/199e4cee19.js\"></script>\n";
         echo "<link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC\" crossorigin=\"anonymous\">\n";
         echo "<link href=\"css/style.css\" rel=\"stylesheet\">\n";
