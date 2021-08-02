@@ -20,7 +20,7 @@ class App {
         echo "<script ";
         echo "src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyCuj8heRtWx_X1Vd9cR_ciLphCxEkZeCwE&callback=initMap&libraries=&v=weekly\" ";
         echo "async";
-        echo "></script>\"\n";
+        echo "></script>\n";
 
         echo "<div class=\"container-fluid\" id=\"contact-popup\">\n";
             echo "<div class=\"row d-flex justify-content-center align-items-center\">\n";
