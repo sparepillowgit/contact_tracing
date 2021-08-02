@@ -11,7 +11,7 @@ class App {
                     echo "<h1><i class=\"fas fa-search-location icon\"></i> COVID <span class=\"text-contact\">Contact</span> <span class=\"text-tracing\">Tracing</span></h1>\n";
                 echo "</div>\n";
                 echo "<div class=\"col-3 col-md-1 info text-center justify-content-center d-flex align-items-center\">\n";
-                    echo "<h2><i class=\"fas fa-copyright icon\"></i></i>Yohanes Mario</h2>\n";
+                    echo "<h2><i class=\"fas fa-copyright icon\"></i>Yohanes Mario</h2>\n";
                 echo "</div>\n";
             echo "</div>\n";
             echo "<div class=\"row map-row g-0\">\n";
