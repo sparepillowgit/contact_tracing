@@ -14,6 +14,7 @@ html {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 
 h1, h2 {
 	font-family: 'Rubik', sans-serif;
@@ -100,13 +101,21 @@ h1, h2 {
     opacity: 0.5;
 }
 
-.header > * {
+.header > .info:first-child {
     background: #000;
-    position: fixed;
     z-index: 5;
     padding: 12px 5px;
     border-radius: 0 0 10px 10px;
     margin: 0 0 0 10px;
+}
+
+.header > .info:nth-child(2) {
+    color: #000;
+    background: #fff;
+    z-index: 4;
+    padding: 12px 5px;
+    border-radius: 0 0 10px 10px;
+    margin: 0 10px 0 0;
 }
 
 .header h1 {
@@ -116,9 +125,22 @@ h1, h2 {
     font-weight: 700;
 }
 
-.header .icon {
+.header h2 {
+    color: #000;
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 700;
+    font-family: 'Yellowtail', cursive;
+}
+
+.header > .info:first-child .icon {
     margin-right: 8px;
     font-size: 1.6rem;
+}
+
+.header > .info:nth-child(2) .icon {
+    margin-right: 8px;
+    font-size: 1.2rem;
 }
 
 .text-contact {
@@ -132,11 +154,27 @@ h1, h2 {
 }
 
 @media only screen and (max-width: 576px) {
-    .header > * {
-       margin: 0;
+    .header > .info:first-child {
+       margin: 0 0 0 5px;
+    }
+
+    .header > .info:nth-child(2) {
+        margin: 0 5px 0 0;
     }
 
     .header h1 {
-    	font-size: 1.2rem;
+        font-size: 1rem;
+    }
+    
+    .header h2 {
+        font-size: 0.9rem;
+    }
+    
+    .header > .info:first-child .icon {
+        font-size: 1rem;
+    }
+    
+    .header > .info:nth-child(2) .icon {
+        display: none;
     }
 }
