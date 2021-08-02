@@ -19,6 +19,14 @@ class Head {
         echo "<script src=\"https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js\"></script>\n";
         echo "<script src=\"js/scripts.js\"></script>\n";
         echo "<title>$title</title>\n";
+        echo "<!-- Global site tag (gtag.js) - Google Analytics -->\n";
+        echo "<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-2Y7MRF2TB1\"></script>\n";
+        echo "<script>\n";
+        echo "window.dataLayer = window.dataLayer || [];\n";
+        echo "function gtag(){dataLayer.push(arguments);}\n";
+        echo "gtag('js', new Date());\n";
+        echo "gtag('config', 'G-2Y7MRF2TB1');\n";
+        echo "</script>\n";
     }
 
 }
