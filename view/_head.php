@@ -33,6 +33,9 @@ class Head {
         echo "<meta name=\"msapplication-TileColor\" content=\"#000000\">\n";
         echo "<script src=\"https://kit.fontawesome.com/199e4cee19.js\"></script>\n";
         echo "<link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC\" crossorigin=\"anonymous\">\n";
+        echo "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n";
+        echo "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n";
+        echo "<link href=\"https://fonts.googleapis.com/css2?family=Rubik&family=Yellowtail&display=swap\" rel=\"stylesheet\">\n";
         echo "<link href=\"css/style.css\" rel=\"stylesheet\">\n";
         echo "<script src=\"https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js\"></script>\n";
         echo "<script src=\"js/main.js\"></script>\n";
