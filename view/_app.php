@@ -4,7 +4,9 @@ class App {
 
     function init() {
         // $args = Empty
-        $argsApp = func_get_args();
+        $args = func_get_args();
+        $time = Query::exec("logs");
+        $time = $time[0]["time"];
 
         echo "<div class=\"container-fluid main\">\n";
             echo "<div class=\"row header justify-content-between\">\n";
@@ -17,6 +19,10 @@ class App {
             echo "</div>\n";
             echo "<div class=\"row map-row g-0\">\n";
                 echo "<div class=\"col-12\" id=\"map\">\n";
+                echo "</div>\n";
+            echo "</div>\n";
+            echo "<div class=\"row status\">\n";
+                echo "<h2>Last updated: $time</h2>\n";
                 echo "</div>\n";
             echo "</div>\n";
         echo "</div>\n";

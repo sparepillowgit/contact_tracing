@@ -150,6 +150,22 @@ h1, h2 {
     font-weight: 500;
 }
 
+.status {
+    background: #fff;
+    z-index: 10;
+    position: absolute;
+    bottom: 25px;
+    margin: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.status h2 {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 700;
+}
+
 @media only screen and (max-width: 576px) {
     .header > .info:first-child {
        margin: 0 0 0 5px;
@@ -173,5 +189,9 @@ h1, h2 {
     
     .header > .info:nth-child(2) .icon {
         display: none;
+    }
+
+    .status h2 {
+        font-size: 0.8rem;
     }
 }

@@ -9,6 +9,9 @@ class Head {
 
         echo "\n<meta charset=\"UTF-8\">\n";
         echo "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n";
+        echo "<meta http-equiv=\"cache-control\" content=\"no-cache\">\n";
+        echo "<meta http-equiv=\"expires\" content=\"0\">\n";
+        echo "<meta http-equiv=\"pragma\" content=\"no-cache\">\n";
         echo "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n";;
         echo "<meta name=\"description\" content=\"COVID-19 contact tracing map for Queensland, Australia.\">\n";
         echo "<meta name=\"author\" content=\"Yohanes Mario\">\n";
