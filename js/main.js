@@ -1,8 +1,3 @@
-
-/* window.onload = () => {
-	
-} */
-
 let map;
 
 function initMap() {
@@ -54,19 +49,7 @@ for (const entry of contacts) {
 }
 
 window.onload = function() {
-	pwa();
-
 	document.getElementById("close-popup").addEventListener("click", function() {
 		document.getElementById("contact-popup").style.display = "none";
 	});
-}
-
-
-function pwa() {
-	'use strict';
-  
-	if ('serviceWorker' in navigator) {
-	  navigator.serviceWorker
-			   .register('./sw.js');
-	}
 }
