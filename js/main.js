@@ -52,4 +52,15 @@ window.onload = function() {
 	document.getElementById("close-popup").addEventListener("click", function() {
 		document.getElementById("contact-popup").style.display = "none";
 	});
+
+	blinkStatus();
+}
+
+function blinkStatus() {
+	setInterval(() => {
+		document.getElementsByClassName("blink")[0].style.color = "#fff";
+		setTimeout(() => {
+			document.getElementsByClassName("blink")[0].style.color = "rgb(25, 187, 25)";
+		}, 500);
+	}, 1000);
 }

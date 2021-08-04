@@ -166,6 +166,12 @@ h1, h2 {
     font-weight: 700;
 }
 
+.blink {
+    color: rgb(25, 187, 25);
+    font-size: 0.8rem;
+    margin-right: 5px;
+}
+
 @media only screen and (max-width: 576px) {
     .header > .info:first-child {
        margin: 0 0 0 5px;
@@ -193,5 +199,9 @@ h1, h2 {
 
     .status h2 {
         font-size: 0.8rem;
+    }
+
+    .blink {
+        font-size: 0.6rem;
     }
 }
