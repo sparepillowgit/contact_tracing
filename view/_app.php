@@ -23,7 +23,6 @@ class App {
             echo "</div>\n";
             echo "<div class=\"row status\">\n";
                 echo "<h2>Last updated: $time</h2>\n";
-                echo "</div>\n";
             echo "</div>\n";
         echo "</div>\n";
 
