@@ -13,32 +13,52 @@ function initMap() {
 	const iconBase = "images/";
 
 	const icons = {
-		site: {
-		  icon: iconBase + "site.png",
+		low: {
+			icon: iconBase + "low.png",
+		},
+		casual: {
+			icon: iconBase + "casual.png",
+		},
+		close: {
+			icon: iconBase + "close.png",
 		}
-	  };
+	};
 	
 	const markers = locations.map((location, i) => {
-	  marker = new google.maps.Marker({
-		position: location,
-		icon: icons["site"].icon
-	  });
-	  marker.addListener("click", () => {
-		document.getElementById("contact-popup").style.display = "block";
-		document.getElementById("place").innerHTML = "<i class=\"fas fa-map-marker-alt\"></i> " + contacts[i].place;
-		document.getElementById("risk").innerHTML = contacts[i].risk;
-		document.getElementById("address").innerHTML = contacts[i].address;
-		document.getElementById("suburb").innerHTML = contacts[i].suburb;
-		document.getElementById("date").innerHTML = "<i class=\"far fa-calendar\"></i> " + contacts[i].date;
-		document.getElementById("arrival-time").innerHTML = "Arrival: " + contacts[i].arrival_time;
-		document.getElementById("departure-time").innerHTML = "Departure: " + contacts[i].departure_time;
-	  });
+		let iconSel;
+
+		switch (contacts[i].risk) {
+			case "Low Risk Contact":
+				iconSel = "low";
+				break;
+			case "Casual Contact":
+				iconSel = "casual";
+				break;
+			case "Close Contact":
+				iconSel = "close";
+				break;
+		} 
+
+		marker = new google.maps.Marker({
+			position: location,
+			icon: icons[iconSel].icon
+	  	});
+
+		marker.addListener("click", () => {
+			document.getElementById("contact-popup").style.display = "block";
+			document.getElementById("place").innerHTML = "<i class=\"fas fa-map-marker-alt\"></i> " + contacts[i].place;
+			document.getElementById("risk").innerHTML = contacts[i].risk;
+			document.getElementById("address").innerHTML = contacts[i].address;
+			document.getElementById("suburb").innerHTML = contacts[i].suburb;
+			document.getElementById("date").innerHTML = "<i class=\"far fa-calendar\"></i> " + contacts[i].date;
+			document.getElementById("arrival-time").innerHTML = "Arrival: " + contacts[i].arrival_time;
+			document.getElementById("departure-time").innerHTML = "Departure: " + contacts[i].departure_time;
+		});
 	  
 	  return marker;
 	});
 	new MarkerClusterer(map, markers, {
-	  imagePath:
-		"images/m",
+		imagePath: "images/m",
 	});
 }
 

@@ -21,9 +21,9 @@ class Head {
         echo "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n";
         echo "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n";
         echo "<link href=\"https://fonts.googleapis.com/css2?family=Rubik&family=Yellowtail&display=swap\" rel=\"stylesheet\">\n";
-        echo "<link href=\"css/style.css?version=1.0\" rel=\"stylesheet\">\n";
+        echo "<link href=\"css/style.css?version=1.1\" rel=\"stylesheet\">\n";
         echo "<script src=\"https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js\"></script>\n";
-        echo "<script src=\"js/main.js?version=1.0\"></script>\n";
+        echo "<script src=\"js/main.js?version=1.1\"></script>\n";
         echo "<title>$title</title>\n";
         echo "<!-- Global site tag (gtag.js) - Google Analytics -->\n";
         echo "<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-2Y7MRF2TB1\"></script>\n";
